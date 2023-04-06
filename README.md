@@ -3,6 +3,12 @@
 # 1. Business Problem
 ### Introduction
   The objective of the study is to use a dataset of real estate sales transactions to predict the price-per-unit of a property based on its features. The price-per-unit in this data is based on a unit measurement of 3.3 square meters. Predicting the selling price of a residential property depends on a number of factors, including the property age, availability of local amenities, and location.
+  The challenge is to explore and prepare the data, identify predictive features that will help predict the price_per_unit label, and train a regression model that achieves the lowest Root Mean Square Error (RMSE) possible (which must be less than 7) when evaluated against a test subset of data. After that, the trained model should be saved and then used to predict the price_per_unit for the following real estate transactions.
+
+| transaction_date | house_age | transit_distance | local_convenience_stores | latitude | longitude |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
+| 2013.167 | 16.2 | 289.3248  | 5  | 24.98203  | 121.54348  |
+| 2013.000 | 13.6 | 4082.015  | 0  | 24.94155  | 121.50381  |
     
  ## FEATURES
  The data consists of the following variables:
@@ -46,3 +52,9 @@
 | ------------- | ------------- | ------------- | 
 | 37.5327  | 6.1264  | 0.6797  |
 
+# 6. Results 
+  When the model trained was used in the new dataframe the results obtained for the 'price_per_unit' column were the following:
+| price_per_unit |
+| ------------- | 
+| 49.274  |
+| 16.641 |
