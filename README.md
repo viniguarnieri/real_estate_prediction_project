@@ -25,19 +25,19 @@
 # 2. Solution Strategy
   My strategy to solve this challenge was:
   
-  Step 01. Data Description: My goal is to use statistics metrics to identify data outside the scope of business.
+  **Step 01.** *Data Description:* My goal is to use statistics metrics to identify data outside the scope of business.
   
-  Step 02. Data Filtering: Filter rows and select columns that do not contain information for modeling or that do not match the scope of the business.
+  **Step 02.** *Data Filtering:* Filter rows and select columns that do not contain information for modeling or that do not match the scope of the business.
   
-  Step 03. Exploratory Data Analisys: Explore the data to find insights and better undestand the impact of variables on model training.
+  **Step 03.** *Exploratory Data Analisys:* Explore the data to find insights and better undestand the impact of variables on model training.
   
-  Step 04. Data Preparation: Prepare the data so that the Machine Learning models can learn the specific behavior.
+  **Step 04.** *Data Preparation:* Prepare the data so that the Machine Learning models can learn the specific behavior.
   
-  Step 05. Feature Selection: Selection of the most significant attributes for training the model.
+  **Step 05.** *Feature Selection:* Selection of the most significant attributes for training the model.
   
-  Step 06. Machine Learning Modeling: Machine Learning model training.
+  **Step 06.** *Machine Learning Modeling:* Machine Learning model training.
   
-  Step 07. Use the model to predict the column 'price_per_unit' of a new dataframe.
+  **Step 07.** Use the model to predict the column 'price_per_unit' of a new dataframe.
 
 # 4. Machine Learning Model Applied
 - Tests were made using different algorithms:
